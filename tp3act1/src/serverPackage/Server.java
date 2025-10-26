@@ -17,8 +17,9 @@ public class Server {
                 Socket clientSocket = serverSocket.accept();
                 int clientNumber = clientCount.incrementAndGet();
 
+                // Affichage des informations du client côté serveur
                 System.out.println("Nouveau client connecté : " +
-                        clientSocket.getRemoteSocketAddress() +
+                        clientSocket.getInetAddress().getHostAddress() +
                         " | Client n°" + clientNumber);
 
                 // Créer un thread pour gérer ce client

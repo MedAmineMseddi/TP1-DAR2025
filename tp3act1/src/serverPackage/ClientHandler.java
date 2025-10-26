@@ -18,7 +18,7 @@ public class ClientHandler implements Runnable {
             PrintWriter out = new PrintWriter(socket.getOutputStream(), true);
             BufferedReader in = new BufferedReader(new InputStreamReader(socket.getInputStream()))
         ) {
-            // Message d’accueil
+            // Message de bienvenue avec numéro d’ordre
             out.println("Bienvenue, vous êtes le client n°" + clientNumber);
 
             String message;
