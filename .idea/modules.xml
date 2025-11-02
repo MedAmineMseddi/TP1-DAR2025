@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/TP1-DAR2025.iml" filepath="$PROJECT_DIR$/TP1-DAR2025.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tp2act1/tp2act1.iml" filepath="$PROJECT_DIR$/tp2act1/tp2act1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tp2act2/tp2act2.iml" filepath="$PROJECT_DIR$/tp2act2/tp2act2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tp3act1/tp3act1.iml" filepath="$PROJECT_DIR$/tp3act1/tp3act1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tp3act2/tp3act2.iml" filepath="$PROJECT_DIR$/tp3act2/tp3act2.iml" />
+    </modules>
+  </component>
+</project>
